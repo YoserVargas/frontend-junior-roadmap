@@ -48,3 +48,32 @@ Each topic will include explanations, practical exercises, challenges and progre
 ## Final Goal
 
 Become confident solving frontend problems independently, explaining technical concepts and successfully completing Junior Frontend Developer interviews.
+
+## Progress Log
+
+### JavaScript
+
+#### Day 01 - Filtering and Transforming Data
+
+**Challenge:** Filter active adult users and return their names.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select elements that meet specific conditions.
+- `map()` to transform elements and extract names.
+- Chaining array methods.
+- Logical AND (`&&`).
+- Strict equality (`===`).
+- Greater than or equal (`>=`).
+- Debugging syntax errors.
+
+**Expected output:**
+```js
+["Carlos", "María", "Sofía"]
+```
+
+**Interview practice:**
+- Explained the difference between `filter()` and `map()`.
+- Identified why both methods are needed to filter users and extract their names.
+
+**Status:** Completed
