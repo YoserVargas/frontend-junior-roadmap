@@ -77,3 +77,29 @@ Become confident solving frontend problems independently, explaining technical c
 - Identified why both methods are needed to filter users and extract their names.
 
 **Status:** Completed
+
+#### Day 02 - Product Filtering and Analysis
+
+**Challenge:** Filter available technology products costing less than ₡20,000 and return their names.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select elements that meet multiple conditions.
+- `map()` to extract product names.
+- Chaining array methods.
+- Logical AND (`&&`).
+- Strict equality (`===`).
+- Less than (`<`).
+- Combining multiple conditions in a callback function.
+
+**Expected output:**
+```js
+["Mouse", "Audifonos", "Webcam"]
+```
+
+**Interview practice:**
+- Explained why `filter()` is needed before `map()`.
+- Identified the difference between filtering elements and transforming them.
+- Explained why `map()` alone does not filter elements based on conditions.
+
+**Status:** Completed
