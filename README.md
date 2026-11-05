@@ -103,3 +103,29 @@ Become confident solving frontend problems independently, explaining technical c
 - Explained why `map()` alone does not filter elements based on conditions.
 
 **Status:** Completed
+
+#### Day 03 - Sales Analysis with Reduce
+
+**Challenge:** Calculate the total amount of paid sales.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select paid sales.
+- `reduce()` to accumulate values.
+- Accumulator and current element.
+- Initial value of the accumulator.
+- Chaining array methods.
+- Adding numeric object properties.
+
+**Expected output:**
+```js
+476000
+```
+
+**Interview practice:**
+- Explained the purpose of the accumulator.
+- Identified how changing the initial value affects the result.
+- Explained why removing `filter()` would include all sales.
+- Distinguished between filtering elements and accumulating values.
+
+**Status:** Completed
