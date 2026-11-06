@@ -129,3 +129,34 @@ Become confident solving frontend problems independently, explaining technical c
 - Distinguished between filtering elements and accumulating values.
 
 **Status:** Completed
+
+#### Day 04 - Employee Performance Analysis
+
+**Challenge:** Identify employees who exceeded their sales target by at least ₡30,000 and return their names.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select employees.
+- `map()` to extract employee names.
+- Comparison operators (`>=`).
+- Arithmetic operations (subtraction).
+- Comparing object properties.
+- Chaining array methods.
+- Testing and debugging conditions.
+
+**Main condition:**
+```js
+empleado.ventas - empleado.meta >= 30000
+```
+
+**Expected output:**
+```js
+["Carlos"]
+```
+
+**Interview practice:**
+- Explained the difference between `>` and `>=`.
+- Identified why the difference between sales and target must be calculated.
+- Explained why employees exceeding their target by less than ₡30,000 do not qualify.
+
+**Status:** Completed
