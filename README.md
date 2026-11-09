@@ -160,3 +160,30 @@ empleado.ventas - empleado.meta >= 30000
 - Explained why employees exceeding their target by less than ₡30,000 do not qualify.
 
 **Status:** Completed
+
+#### Day 05 - Employee Filtering and Logical Operators
+
+**Challenge:** Identify active employees from the Sales department earning at least ₡500,000.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select employees.
+- `map()` to extract employee names.
+- Multiple conditions using `&&`.
+- Logical OR (`||`).
+- Understanding the difference between AND and OR.
+- Operator precedence (`&&` before `||`).
+- Comparison operators (`===`, `>=`).
+
+**Expected output:**
+```js
+["Carlos", "María", "Jorge"]
+```
+
+**Interview practice:**
+- Explained why all conditions must be true when using `&&`.
+- Explained why only one condition needs to be true when using `||`.
+- Analyzed combinations of logical operators.
+- Identified how operator precedence affects conditional expressions.
+
+**Status:** Completed
