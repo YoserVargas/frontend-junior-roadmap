@@ -187,3 +187,31 @@ empleado.ventas - empleado.meta >= 30000
 - Identified how operator precedence affects conditional expressions.
 
 **Status:** Completed
+
+#### Day 06 - Employee Salary Analysis
+
+**Challenge:** Analyze the salaries of active employees and calculate total salaries, average salary and employee count.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select active employees.
+- `reduce()` to calculate the total salary.
+- `.length` to count active employees.
+- Calculating averages using division.
+- Variables and intermediate results.
+- Returning objects from functions.
+- Debugging variable references.
+
+**Expected output:**
+```js
+{
+  totalSalario: 3650000,
+  salarioPromedio: 608333.33,
+  empleadosActivos: 6
+}
+```
+
+**Important debugging lesson:**
+- Use `EmpleadosActivos.reduce()` instead of `empleados.reduce()` to avoid including inactive employees.
+
+**Status:** Completed
