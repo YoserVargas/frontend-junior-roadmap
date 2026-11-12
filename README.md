@@ -215,3 +215,33 @@ empleado.ventas - empleado.meta >= 30000
 - Use `EmpleadosActivos.reduce()` instead of `empleados.reduce()` to avoid including inactive employees.
 
 **Status:** Completed
+
+#### Day 07 - Sales Analysis and Statistics
+
+**Challenge:** Analyze active sales representatives and calculate total sales, average sales and the number of active representatives.
+
+**Concepts practiced:**
+- Arrays of objects.
+- `filter()` to select active sales representatives.
+- `reduce()` to calculate total sales.
+- `.length` to count active representatives.
+- Calculating averages using division.
+- Storing intermediate results in variables.
+- Returning objects from functions.
+- Reusing filtered arrays in multiple calculations.
+
+**Expected output:**
+```js
+{
+  totalVentas: 4550000,
+  promedioVentas: 910000,
+  cantidadVendedores: 5
+}
+```
+
+**Interview practice:**
+- Explained why `.length` is better than manually counting elements.
+- Explained why the filtered array should be reused for calculations.
+- Identified and avoided the error from Day 06.
+
+**Status:** Completed
