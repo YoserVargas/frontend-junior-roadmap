@@ -245,3 +245,33 @@ empleado.ventas - empleado.meta >= 30000
 - Identified and avoided the error from Day 06.
 
 **Status:** Completed
+
+#### Day 08 - Sales Performance Analysis
+
+**Challenge:** Analyze active sales representatives, calculate total and average sales, and identify top performers.
+
+**Concepts practiced:**
+- `filter()` with multiple conditions using `&&`.
+- `reduce()` to calculate total sales.
+- `.length` to count filtered elements.
+- Calculating averages.
+- Chaining `filter()` and `map()`.
+- Comparison operators `>` and `>=`.
+- Returning multiple results in an object.
+
+**Expected output:**
+```js
+{
+  VendedoresActivos: 5,
+  TotalVentas: 4550000,
+  PromedioVentas: 910000,
+  NombresDestacados: ["Carlos", "María", "Jorge"]
+}
+```
+
+**Interview practice:**
+- Explained why `vendedoresActivos.length` is used instead of `vendedores.length`.
+- Explained the difference between `>` and `>=`.
+- Identified the correct array to use when calculating the average.
+
+**Status:** Completed
