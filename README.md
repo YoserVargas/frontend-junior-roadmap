@@ -275,3 +275,34 @@ empleado.ventas - empleado.meta >= 30000
 - Identified the correct array to use when calculating the average.
 
 **Status:** Completed
+
+#### Day 09 - Employee Performance Analysis
+
+**Challenge:** Analyze active employees from the Sales department, calculate their total and average sales, and identify top performers.
+
+**Concepts practiced:**
+- `filter()` with multiple conditions using `&&`.
+- `reduce()` to calculate total sales.
+- `.length` to count filtered employees.
+- Calculating averages.
+- Using `filter()` twice for different selection criteria.
+- Chaining `filter()` and `map()`.
+- Comparison operator `>=`.
+- Returning multiple results in an object.
+
+**Expected output:**
+```js
+{
+  EmpleadosActivos: 4,
+  TotalVentas: 4300000,
+  PromedioVentas: 1075000,
+  EmpleadosDestacados: ["Luis", "Jorge"]
+}
+```
+
+**Interview practice:**
+- Explained why two filtering operations are needed.
+- Distinguished between the original array and the filtered array.
+- Explained why the average uses the number of selected employees.
+
+**Status:** Completed
