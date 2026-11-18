@@ -306,3 +306,38 @@ empleado.ventas - empleado.meta >= 30000
 - Explained why the average uses the number of selected employees.
 
 **Status:** Completed
+
+#### Day 10 - Sales Analysis and Maximum Value
+
+**Challenge:** Analyze active sales representatives from the Sales department and calculate performance statistics.
+
+**Concepts practiced:**
+- `filter()` with multiple conditions using `&&`.
+- `reduce()` to calculate total sales.
+- `.length` to count filtered employees.
+- Calculating averages.
+- `map()` to extract employee names.
+- `reduce()` to find the maximum sales value.
+- `if/else` conditional logic.
+- Ternary operator (`? :`).
+- Reusing filtered arrays.
+- Debugging logical errors.
+
+**Expected output:**
+```js
+{
+  EmpleadosActivos: 5,
+  TotalVentas: 5350000,
+  PromedioVentas: 1070000,
+  NombreVendedoresMayorVenta: ["Luis", "Jorge", "Diego"],
+  VentaAlta: 1300000
+}
+```
+
+**Interview practice:**
+- Explained how the accumulator works.
+- Explained how to find the maximum value using `reduce()`.
+- Compared `if/else` with the ternary operator.
+- Identified why calculations must use the filtered array.
+
+**Status:** Completed
