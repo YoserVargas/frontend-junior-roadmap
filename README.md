@@ -341,3 +341,22 @@ empleado.ventas - empleado.meta >= 30000
 - Identified why calculations must use the filtered array.
 
 **Status:** Completed
+
+#### Day 11 - Department Analysis
+
+**Challenge:** Analyze employee performance by department.
+
+**Concepts practiced:**
+- Arrow functions (`=>`).
+- `filter()` with multiple conditions.
+- `reduce()` to calculate total salaries.
+- `.length` to count employees.
+- Calculating average salaries.
+- `map()` to extract employee names.
+- `Math.max()` to find the highest salary.
+- Reusing filtered arrays.
+- Separating arrays from numeric values.
+
+**Key learning:** Filter the data first and reuse the resulting array for all subsequent calculations.
+
+**Status:** Completed
