@@ -360,3 +360,22 @@ empleado.ventas - empleado.meta >= 30000
 **Key learning:** Filter the data first and reuse the resulting array for all subsequent calculations.
 
 **Status:** Completed
+
+#### Day 12 - Employee Performance Analysis
+
+**Challenge:** Analyze employee performance by department using arrow functions.
+
+**Concepts practiced:**
+- Arrow functions (`=>`) for functions and callbacks.
+- `filter()` with multiple conditions.
+- `reduce()` to calculate total salaries.
+- `.length` to count employees.
+- Calculating average salaries.
+- Combining `filter()` and `map()` to extract employee names.
+- `Math.max()` to find the highest salary.
+- Implicit return in arrow functions.
+- Reusing filtered arrays.
+
+**Key learning:** Arrow functions can return an expression automatically when written without curly braces. When using curly braces, an explicit `return` is required.
+
+**Status:** Completed
