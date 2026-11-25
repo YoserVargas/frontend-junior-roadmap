@@ -379,3 +379,23 @@ empleado.ventas - empleado.meta >= 30000
 **Key learning:** Arrow functions can return an expression automatically when written without curly braces. When using curly braces, an explicit `return` is required.
 
 **Status:** Completed
+
+#### Day 13 - Sales Analysis and Array Search
+
+**Challenge:** Analyze sales performance by department using arrow functions.
+
+**Concepts practiced:**
+- Arrow functions (`=>`).
+- `filter()` with multiple conditions.
+- `reduce()` to calculate total sales.
+- `.length` to count elements.
+- Calculating averages.
+- Combining `filter()` and `map()`.
+- `Math.max()` to find the highest sale.
+- `find()` to locate the first matching element.
+- Understanding `undefined` when no element is found.
+- Reusing filtered arrays.
+
+**Key learning:** `filter()` returns all elements that match a condition, while `find()` returns only the first matching element.
+
+**Status:** Completed
