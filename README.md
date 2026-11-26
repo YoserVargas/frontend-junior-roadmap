@@ -399,3 +399,23 @@ empleado.ventas - empleado.meta >= 30000
 **Key learning:** `filter()` returns all elements that match a condition, while `find()` returns only the first matching element.
 
 **Status:** Completed
+
+#### Day 14 - Employee Analysis and Search
+
+**Challenge:** Analyze employees by department and search for a specific employee.
+
+**Concepts practiced:**
+- Arrow functions (`=>`).
+- `filter()` with multiple conditions.
+- `reduce()` to calculate total salaries.
+- `.length` to count employees.
+- Calculating average salaries.
+- Combining `filter()` and `map()`.
+- `Math.max()` to find the highest salary.
+- `find()` to search for a specific employee.
+- Reusing filtered arrays.
+- Understanding the difference between arrays and numeric values.
+
+**Key learning:** Filter the data first and reuse the resulting array for calculations to avoid including employees from other departments or inactive employees.
+
+**Status:** Completed
