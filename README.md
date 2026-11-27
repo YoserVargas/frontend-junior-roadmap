@@ -419,3 +419,23 @@ empleado.ventas - empleado.meta >= 30000
 **Key learning:** Filter the data first and reuse the resulting array for calculations to avoid including employees from other departments or inactive employees.
 
 **Status:** Completed
+
+#### Day 15 - Array Conditions and Validation
+
+**Challenge:** Analyze employee salaries and validate conditions using array methods.
+
+**Concepts practiced:**
+- Arrow functions (`=>`).
+- `filter()` with multiple conditions.
+- `reduce()` to calculate total salaries.
+- `.length` to count employees.
+- Calculating average salaries.
+- Combining `filter()` and `map()`.
+- `Math.max()` to find the highest salary.
+- `some()` to check whether at least one element meets a condition.
+- `every()` to verify whether all elements meet a condition.
+- Reusing filtered arrays.
+
+**Key learning:** `some()` returns true when at least one element matches a condition, while `every()` returns true only when all elements match it.
+
+**Status:** Completed
